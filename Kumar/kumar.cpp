@@ -24,7 +24,7 @@ void kumar::gambling()
 	{
 		
 		srand(time(NULL));
-		pc = rand() % 2;
+		pc = rand() % 5;
 		if (prediction == pc)
 		{
 			
